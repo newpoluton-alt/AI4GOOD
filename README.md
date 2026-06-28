@@ -172,7 +172,12 @@ The app uses:
 
 ## Backend Integration
 
-The Flutter app integrates with an external backend API. The default production backend is:
+The Flutter app integrates with the AI4GOOD backend that we developed in a separate repository:
+
+- Frontend repository: [newpoluton-alt/AI4GOOD](https://github.com/newpoluton-alt/AI4GOOD)
+- Backend repository: [newpoluton-alt/AI4GOOD_BACKEND](https://github.com/newpoluton-alt/AI4GOOD_BACKEND)
+
+The default production backend is:
 
 ```text
 https://d2x9le8skhxjh4.cloudfront.net
@@ -307,6 +312,6 @@ flutter build web --dart-define=API_BASE_URL=https://your-backend.example.com
 
 ## Notes
 
-- This repository contains the Flutter client. The FastAPI backend, CloudFront distribution, and ALB are external services consumed by the app.
+- This repository contains the Flutter client. The FastAPI backend lives in [newpoluton-alt/AI4GOOD_BACKEND](https://github.com/newpoluton-alt/AI4GOOD_BACKEND), with CloudFront and the ALB exposed as external services consumed by the app.
 - Firebase client configuration files are included so the Flutter app can initialize Firebase on supported platforms.
 - Generated build outputs such as `build/`, `.dart_tool/`, platform ephemeral folders, and CocoaPods dependencies are ignored.
