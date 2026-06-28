@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "394583381706",
+    "project_id": "ai4good-faf8f",
+    "storage_bucket": "ai4good-faf8f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394583381706:android:74d9c57f968cdd58a90633",
+        "android_client_info": {
+          "package_name": "com.example.ai4good"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhHBKCiuJK_3BoFn464CLXnkw2xoUxNTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
